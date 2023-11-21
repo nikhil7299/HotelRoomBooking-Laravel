@@ -25,7 +25,7 @@
                         </div>
                         <div class="flex items-center gap-1 text-gray-800">
                             <i class='bx bx-money'></i>
-                            <span class="text-sm capitalize">${{ $room->price }}/night</span>
+                            <span class="text-sm capitalize">Rs.{{ $room->price }}/night</span>
                         </div>
                     </div>
                     <div class="space-y-2">

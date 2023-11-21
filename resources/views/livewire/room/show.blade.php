@@ -19,7 +19,7 @@
                 </div>
                 <div class="flex items-center gap-1 text-gray-800">
                     <i class='bx bx-money'></i>
-                    <span class="text-sm capitalize">${{ $room->price }}/night</span>
+                    <span class="text-sm capitalize">Rs.{{ $room->price }}/night</span>
                 </div>
             </div>
             <div class="prose sm:prose-base prose max-w-none prose-img:rounded-tr-xl prose-img:rounded-bl-xl prose-img:w-full">
